@@ -1,0 +1,13 @@
+h3{
+    font-size: 20px !important;
+}
+
+canvas{
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation{
+    from{box-shadow: 5px 5px 30px green;}
+    to{box-shadow: 5px 5px 30px blue;}
+}
